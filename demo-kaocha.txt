@@ -1,0 +1,37 @@
+Our topic:
+  https://cljdoc.org/d/lambdaisland/kaocha/1.0.732/doc/readme
+
+Newest Clojure version:
+  https://clojure.org/releases/downloads
+
+Latest release of the clj and clojure tools:
+  https://clojure.org/guides/getting_started
+
+Check installed:
+  [eric@eric-macmini ~]$ clojure -Sdescribe
+
+Good overview/listing of Clojure CLI and tools.deps project development:
+  https://github.com/practicalli/clojure-deps-edn
+
+Our topic with more detail from https://practicalli.github.io/
+  https://practicalli.github.io/clojure/testing/test-runners/kaocha-test-runner.html
+
+
+Now... running:
+
+
+Running:
+  cd to /meetup-madison, then:
+
+Plain-jane:
+  [eric@linux-x2vq meetup-madison]$ clojure -M:test/cognitect
+
+Turbo-colored:
+  [eric@linux-x2vq meetup-madison]$ clojure -M:test/kaocha
+
+And from the script:
+  [eric@linux-x2vq meetup-madison]$ ./kaocha
+
+Finally:
+  No tests.edn file - no problem
+  Empty tests.edn file - problemß
