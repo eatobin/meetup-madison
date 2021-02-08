@@ -1,0 +1,20 @@
+https://clojure.org/releases/downloads
+
+https://cljdoc.org/d/lambdaisland/kaocha/1.0.732/doc/readme
+https://cljdoc.org/d/lambdaisland/kaocha/1.0.732/doc/1-introduction
+
+https://clojure.org/guides/getting_started
+[eric@eric-macmini ~]$ clojure -Sdescribe
+https://github.com/practicalli/clojure-deps-edn
+
+https://practicalli.github.io/clojure/testing/test-runners/kaocha-test-runner.html
+
+
+
+cd to /meetup-madison, then:
+
+[eric@linux-x2vq meetup-madison]$ clojure -M:test/kaocha
+
+and/or
+
+[eric@linux-x2vq meetup-madison]$ ./kaocha
