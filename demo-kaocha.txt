@@ -34,4 +34,4 @@ And from the script:
 
 Finally:
   No tests.edn file - no problem
-  Empty tests.edn file - problemß
+  Empty tests.edn file - problem!
