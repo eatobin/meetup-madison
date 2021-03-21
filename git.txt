@@ -1,1 +1,1 @@
-https://github.com/eatobin/meetup-madison.git
+git@github.com:eatobin/meetup-madison.git

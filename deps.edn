@@ -1,7 +1,10 @@
 {:paths   ["src" "test"]
  :deps    {org.clojure/clojure    {:mvn/version "1.10.3"}
            org.clojure/test.check {:mvn/version "1.1.0"}}
- :aliases {:test/kaocha
+ :aliases {:deps/outdated
+           {:extra-deps {antq/antq {:mvn/version "RELEASE"}}
+            :main-opts  ["-m" "antq.core"]}
+           :test/kaocha
            {:extra-deps {lambdaisland/kaocha {:mvn/version "1.0.732"}}
             :main-opts  ["-m" "kaocha.runner"]}
            :test/cognitect
