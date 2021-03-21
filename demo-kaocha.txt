@@ -1,6 +1,9 @@
 Our topic:
   https://cljdoc.org/d/lambdaisland/kaocha/1.0.732/doc/readme
 
+Check deps versions:
+  clojure -M:deps/outdated
+
 Newest Clojure version:
   https://clojure.org/releases/downloads
 
