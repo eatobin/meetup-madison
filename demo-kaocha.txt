@@ -2,7 +2,7 @@ Our topic:
   https://cljdoc.org/d/lambdaisland/kaocha/1.0.732/doc/readme
 
 Check deps versions:
-  clojure -M:deps/outdated
+  [eric@linux-x2vq meetup-madison]$ clojure -M:deps/outdated
 
 Newest Clojure version:
   https://clojure.org/releases/downloads
@@ -11,7 +11,7 @@ Latest release of the clj and clojure tools:
   https://clojure.org/guides/getting_started
 
 Check installed:
-  [eric@eric-macmini ~]$ clojure -Sdescribe
+  [eric@linux-x2vq meetup-madison]$ clojure -Sdescribe
 
 Good overview/listing of Clojure CLI and tools.deps project development:
   https://github.com/practicalli/clojure-deps-edn
