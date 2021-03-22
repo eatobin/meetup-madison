@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-clojure -Sdeps '{:deps {lambdaisland/kaocha {:mvn/version "1.0.732"}}}' -M -m kaocha.runner "$@"
+clojure -Sdeps '{:deps {lambdaisland/kaocha {:mvn/version "1.0.829"}}}' -M -m kaocha.runner "$@"
