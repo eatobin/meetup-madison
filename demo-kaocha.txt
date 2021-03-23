@@ -33,5 +33,4 @@ And from the script:
   [eric@linux-x2vq meetup-madison]$ ./kaocha
 
 Finally:
-  No tests.edn file - no problem
-  Empty tests.edn file - problem!
+  No tests.edn file - warning!
