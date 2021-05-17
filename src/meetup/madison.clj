@@ -7,3 +7,8 @@
 (defn verse-two
   [color3 who]
   {:sugar-is color3 :and-so-are who})
+
+(->>
+  [44 55 66]
+  (map dec)
+  (filter #(not= 54 %)))
