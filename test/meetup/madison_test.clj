@@ -1,6 +1,7 @@
 (ns meetup.madison-test
-  (:require [clojure.test :refer [deftest is]]
-            [meetup.madison :as mm]))
+  (:require
+   [clojure.test :refer [deftest is]]
+   [meetup.madison :as mm]))
 
 (deftest verse-one-test
   (is (= "Roses are red, violets are blue,"
