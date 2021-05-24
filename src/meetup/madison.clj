@@ -12,3 +12,7 @@
   [44 55 66]
   (map dec)
   (filter #(not= 54 %)))
+
+(defn verse-three
+  [x y]
+  (str "I am the sum of " (+ x y)))
